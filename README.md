@@ -1,1 +1,1 @@
-# space-invaders-pygame
+# Space Invaders Game in Pygame, Python
