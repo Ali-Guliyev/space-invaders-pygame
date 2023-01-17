@@ -5,7 +5,7 @@ from files.get_path import path
 pygame.init()
 WIDTH, HEIGHT = 900, 800
 
-print(path)
+# print(path)
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Invaders")

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95012ad4-9954-434e-9900-195003ac5855" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/game/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/game.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/game.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/warn-game.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/warn-game.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/game/xref-game.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/game/xref-game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/game.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/get_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/get_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BWTmslHSj7sR37C90Q2skyESaQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aligu\Dropbox\FAMILY EMIN\Ali\Programming\Python\GAMES\PYGAME\space-invaders" />
+      <recent name="C:\Users\aligu\Dropbox\FAMILY EMIN\Ali\Programming\Python\GAMES\PYGAME\space-invaders\files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.game">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python">
+      <module name="Space Invaders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\aligu\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_path" type="PythonConfigurationType" factoryName="Python">
+      <module name="Space Invaders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\aligu\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/files" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/files/get_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Python.game" />
+      <item itemvalue="Python.get_path" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95012ad4-9954-434e-9900-195003ac5855" name="Changes" comment="" />
+      <created>1657021005330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657021005330</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
