@@ -9,4 +9,3 @@ if ("dist" in path_arr):
 path = ""
 for i in path_arr:
   path += i + "/"
-
