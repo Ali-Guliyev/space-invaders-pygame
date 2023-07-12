@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="95012ad4-9954-434e-9900-195003ac5855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/asteroids/asteroid-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asteroids/asteroid-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boss-level/boss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boss-level/boss_alien_primary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boss-level/boss_alien_secondary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boss-level/boss_angry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/boss-level/laser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/explosion/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/boss_level_fast.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/hurt.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/powerup.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/read_write_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Space Invaders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Space Invaders.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sounds/background-music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sounds/background-music.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sounds/boss_level.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sounds/boss_level.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/get_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/get_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +34,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/game.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,13 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Python\GAMES\PYGAME\space-invaders\assets\images" />
@@ -91,9 +83,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\aligu\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
@@ -153,5 +145,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
