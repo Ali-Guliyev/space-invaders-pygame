@@ -728,7 +728,6 @@ class BossAlienHelper(Sprite):
 
     def update(self):
         super().update()
-        self.rect.y += self.speed
 
     def die(self):
         playsound("explosion.mp3")
@@ -873,7 +872,7 @@ while True:
         heart.update()
 
         # debug(f"Player_bullet x: {player_bullet.rect.x}, y: {player_bullet.rect.y}", 10, 80)
-        debug(f"Heart x: {heart.rect.x} | {boss_aliens_secondary_arr[3].status}", 60, 750)
+        debug(f"Heart x: {heart.rect.x} | {boss_aliens_primary_arr[0].speed} {boss_aliens_primary_arr[1].speed} {boss_aliens_primary_arr[2].speed} {boss_aliens_primary_arr[3].speed} ", 60, 750)
         # debug(f"Player speed: {player.speed}", 10, 80)
         # debug(f"Boss Alien: {boss_alien.rect.y}", 10, 160)
         # debug(f"Boss Primary 1: {boss_aliens_primary_arr[0].rect.y}", 10, 260)
@@ -910,28 +909,57 @@ while True:
 
             # Boss Alien PRIMARY going downwards animation
             for i in range(len(boss_aliens_primary_arr)):
-                if boss_aliens_primary_arr[i].status == "alive":
-                    boss_aliens_primary_arr[i].update()
+                current_alien = boss_aliens_primary_arr[i]
+                if current_alien.status == "alive":
+                    current_alien.update()
                     boss_aliens_primary_bullets_arr[i].update()
                     boss_aliens_primary_hp_bars_arr[i].update()
 
                     coords = [[200, 120], [200, 270], [WIDTH - 80, 120], [WIDTH - 80, 270]]
 
-                    if boss_aliens_primary_arr[i].rect.y >= coords[i][1]:
-                        boss_aliens_primary_arr[i].speed = 0
+                    # if the alien helpers reach the point where they can shoot
+                    if current_alien.rect.y >= coords[i][1]:
+                        # Two alien primary helpers at the top firstly move right and two at the bottom initially move left
+                        # if i == 0 or i == 2:
+                        #     current_alien.speed = 0
+                        #     current_alien.rect.x += current_alien.speed
+                        #     print(current_alien.speed)
+                        # else:
+                        #     current_alien.rect.x -= current_alien.speed
+                        #     boss_aliens_primary_arr[0].speed = game.speeds["BossLevelAlien"]
+                        #     boss_aliens_primary_arr[2].speed = game.speeds["BossLevelAlien"]
+
+                        if i == 1 or i == 3:
+                            boss_aliens_primary_arr[0].rect.x += boss_aliens_primary_arr[0].speed
+                            boss_aliens_primary_arr[2].rect.x += boss_aliens_primary_arr[2].speed
+
+                            boss_aliens_primary_arr[1].rect.x -= boss_aliens_primary_arr[1].speed
+                            boss_aliens_primary_arr[3].rect.x -= boss_aliens_primary_arr[3].speed
+
+                        boss_aliens_primary_hp_bars_arr[i].x_pos = current_alien.rect.x - 20
+                        boss_aliens_primary_hp_bars_arr[i].y_pos = current_alien.rect.y - 20
+
+                        # Alien helper going hitting left and right imaginary obstacle so they will go left and right
+                        if current_alien.rect.x >= coords[i][0] or current_alien.rect.x <= coords[i][0] - 140:
+                            current_alien.speed = -current_alien.speed
                     else:
                         reposition_boss_aliens_primary_hp_bars()
+                        current_alien.rect.y += current_alien.speed
 
             # Boss Alien SECONDARY going downwards animation
             for i in range(len(boss_aliens_secondary_arr)):
-                  boss_aliens_secondary_arr[i].update()
-                  boss_aliens_secondary_bullets_arr[i].update()
-                  boss_aliens_secondary_hp_bars_arr[i].update()
+                current_alien = boss_aliens_secondary_arr[i]
 
-                  if boss_aliens_secondary_arr[i].rect.y >= game.boss_alien_secondary_max_y:
-                      boss_aliens_secondary_arr[i].speed = 0
-                  else:
-                      reposition_boss_aliens_secondary_hp_bars()
+                current_alien.update()
+                boss_aliens_secondary_bullets_arr[i].update()
+                boss_aliens_secondary_hp_bars_arr[i].update()
+
+                if current_alien.rect.y >= game.boss_alien_secondary_max_y:
+                    current_alien.speed = 0
+                else:
+                    reposition_boss_aliens_secondary_hp_bars()
+                    current_alien.rect.y += current_alien.speed
+
 
         # Level entrance text
         levelEntranceTextUpdate()
