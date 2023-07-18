@@ -124,7 +124,7 @@ def reposition_boss_aliens_primary():
     scaleSize = 0.5
     for i in range(len(boss_aliens_primary_arr)):
         boss_aliens_primary_arr[i] = BossAlienHelper(boss_aliens_primary_arr[i][0], boss_aliens_primary_arr[i][1],
-                                                     scaleSize)
+                                                     scaleSize, "primary_alien")
         boss_aliens_primary_bullets_arr.append(BossAlienBullet("primary_alien"))
 
 def reposition_boss_aliens_secondary():
@@ -136,7 +136,7 @@ def reposition_boss_aliens_secondary():
     x = 125
     for i in range(boss_alien_secondary_n):
         x += 65
-        boss_aliens_secondary_arr.append(BossAlienHelper(x, 0, 0.3))  # y = 470
+        boss_aliens_secondary_arr.append(BossAlienHelper(x, 0, 0.3, "secondary_alien"))  # y = 470
         boss_aliens_secondary_bullets_arr.append(BossAlienBullet("secondary_alien"))
 
 def reposition_boss_aliens_primary_hp_bars():
@@ -718,12 +718,13 @@ class BossAlien(Sprite):
             self.status = "dead"
 
 class BossAlienHelper(Sprite):
-    def __init__(self, x, y, scale):
+    def __init__(self, x, y, scale, boss_alien_helper_type):
         self.image = f"{path}assets/images/boss-level/boss_alien_primary.png"
         super().__init__(x, y, self.image)
         self.transform(scale)
         self.speed = 0
         self.status = "alive"
+        self.boss_alien_helper_type = boss_alien_helper_type
 
     def update(self):
         super().update()
